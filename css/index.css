@@ -1,0 +1,12 @@
+
+#temperature.low-usage {
+  color: green;
+}
+
+#temperature.medium-usage {
+  color: black;
+}
+
+#temperature.high-usage {
+  color: red
+}

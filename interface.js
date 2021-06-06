@@ -1,8 +1,13 @@
+'use strict';
+
 document.addEventListener("DOMContentLoaded", () => {
+ 
+
 
    const updateTemperature = () => {
      document.querySelector('#temperature').innerText = thermostat.temperature;
-   }
+     document.querySelector('#temperature').className = thermostat.currentEnergyUsage();
+    }
 
   const thermostat = new Thermostat();
   updateTemperature();
